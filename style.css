@@ -208,3 +208,41 @@ footer {
   object-position: center 25%;
   display: block;
 }
+
+/* Page index for AI navigation */
+.page-index {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--rule);
+}
+
+.page-index h3 {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 1.2rem;
+}
+
+.page-index ul {
+  list-style: none;
+  padding: 0;
+}
+
+.page-index ul li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--warm-mid);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 0.95rem;
+}
+
+.page-index ul li a {
+  color: var(--ink);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.page-index ul li a:hover {
+  color: var(--accent);
+}
