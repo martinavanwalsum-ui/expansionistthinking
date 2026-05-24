@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Expansionist Thinking</title>
+  <meta name="description" content="Contact Martin van Walsum — Expansionist Thinking, Logic, Anthroposophy and AI Research.">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .page-header { margin-bottom: 3rem; padding-bottom: 2rem; border-bottom: 1px solid var(--rule); }
+    .page-kicker { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 0.78rem; letter-spacing: 0.3em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.8rem; }
+    h1.page-title { font-family: 'Cormorant Garamond', Georgia, serif; font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 300; line-height: 1.2; color: var(--ink); margin-bottom: 0.6rem; }
+    .page-meta-line { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 0.95rem; font-style: italic; color: var(--muted); }
+    .back-link { display: inline-flex; align-items: center; gap: 0.5rem; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 0.82rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--muted); text-decoration: none; margin-bottom: 2.5rem; transition: color 0.2s; }
+    .back-link:hover { color: var(--accent); }
+
+    .contact-form { max-width: 580px; }
+
+    .form-group { margin-bottom: 1.8rem; }
+
+    .form-group label {
+      display: block;
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 0.82rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0.5rem;
+    }
+
+    .form-group input,
+    .form-group textarea {
+      width: 100%;
+      padding: 0.8rem 1rem;
+      background: #fdf8f2;
+      border: 1px solid var(--rule);
+      border-radius: 2px;
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 0.95rem;
+      color: var(--ink);
+      transition: border-color 0.2s;
+      outline: none;
+    }
+
+    .form-group input:focus,
+    .form-group textarea:focus {
+      border-color: var(--accent);
+    }
+
+    .form-group textarea {
+      height: 180px;
+      resize: vertical;
+    }
+
+    .submit-btn {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 0.85rem;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--parchment);
+      background: var(--accent);
+      border: none;
+      padding: 0.9rem 2.5rem;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    .submit-btn:hover { background: #6b3010; }
+
+    .form-note {
+      margin-top: 2rem;
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 0.88rem;
+      font-style: italic;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+<header>
+  <p class="site-label">A body of work by Martin van Walsum</p>
+  <h1 class="site-title"><em>Expansionist</em> Thinking</h1>
+  <p class="header-sub">Logic, Anthroposophy and AI Research</p>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="index.html#pages-list">All Pages</a>
+    <a href="contact.html" class="active">Contact</a>
+  </nav>
+  <img src="banner.jpg" alt="Wooden Eurythmy Figures by Martin van Walsum" class="site-banner">
+</header>
+
+<main>
+  <a class="back-link" href="index.html">← Home</a>
+
+  <div class="page-header">
+    <p class="page-kicker">Get in Touch</p>
+    <h1 class="page-title">Contact</h1>
+    <p class="page-meta-line">Questions, responses, or enquiries about the Wooden Eurythmy Figures are welcome.</p>
+  </div>
+
+  <form class="contact-form" action="https://formspree.io/f/meedzwpn" method="POST">
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required placeholder="Your name">
+    </div>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required placeholder="Your email address">
+    </div>
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" required placeholder="Your message"></textarea>
+    </div>
+    <button type="submit" class="submit-btn">Send Message</button>
+  </form>
+
+  <p class="form-note">Your message will be received by Martin van Walsum directly. Response times may vary.</p>
+
+</main>
+
+<footer>
+  Expansionist Thinking &nbsp;·&nbsp; Martin van Walsum &nbsp;·&nbsp; <a href="index.html" style="color:inherit;">Return to Home</a>
+</footer>
+
+</body>
+</html>
